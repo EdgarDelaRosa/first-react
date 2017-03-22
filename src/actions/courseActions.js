@@ -15,12 +15,12 @@ export function loadCourses() {
   };
 }
 
-export function updateCourseSuccess(savedCourse) {
-  return {type: types.UPDATE_COURSE_SUCCESS, savedCourse};
+export function updateCourseSuccess(course) {
+  return {type: types.UPDATE_COURSE_SUCCESS, course};
 }
 
-export function createCourseSuccess(savedCourse) {
-  return {type: types.CREATE_COURSE_SUCCESS, savedCourse};
+export function createCourseSuccess(course) {
+  return {type: types.CREATE_COURSE_SUCCESS, course};
 }
 
 export function saveCourse(course) {
